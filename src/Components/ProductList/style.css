@@ -1,0 +1,19 @@
+.productsContainer {
+    display: flex;
+    gap: 24px;
+}
+
+@media (min-width: 768px) {
+    .productsContainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .productsContainer {
+        width: 100%;
+        overflow: scroll;
+        padding-bottom: 24px;
+        margin-bottom: 40px;
+    }
+}
